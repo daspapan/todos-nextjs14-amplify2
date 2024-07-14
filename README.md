@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+npx create-next-app@latest .
 
-## Getting Started
+npm create amplify@latest 
 
-First, run the development server:
+npx ampx sandbox
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+allowUnauthenticatedIdentities = true
+amplifyApiModelSchemaS3Uri = s3://amplify-todosnextjs14ampl-amplifydataamplifycodege-jr61pxoycijn/model-schema.graphql
+authRegion = ap-south-1
+awsAppsyncAdditionalAuthenticationTypes = AMAZON_COGNITO_USER_POOLS
+awsAppsyncApiEndpoint = https://gcnhywvxpvgubi7ektozt5vuf4.appsync-api.ap-south-1.amazonaws.com/graphql
+awsAppsyncApiId = a2xx4oyvebe5hff76exau663vu
+awsAppsyncAuthenticationType = AWS_IAM
+awsAppsyncRegion = ap-south-1
+deploymentType = sandbox
+identityPoolId = ap-south-1:73e55c31-1dfb-4dda-b1b3-81ad5ae363f8
+mfaConfiguration = OFF
+mfaTypes = []
+oauthClientId = 18lsd5rnibpt8isl1nsug2gd9i
+oauthCognitoDomain =
+oauthRedirectSignIn = https://example.com
+oauthRedirectSignOut =
+oauthResponseType = code
+oauthScope = ["profile","phone","email","openid","aws.cognito.signin.user.admin"]
+passwordPolicyMinLength = 8
+passwordPolicyRequirements = ["REQUIRES_NUMBERS","REQUIRES_LOWERCASE","REQUIRES_UPPERCASE","REQUIRES_SYMBOLS"]
+region = ap-south-1
+signupAttributes = ["email"]
+socialProviders =
+userPoolId = ap-south-1_bO3uwbeRz
+usernameAttributes = ["email"]
+verificationMechanisms = ["email"]
+webClientId = 18lsd5rnibpt8isl1nsug2gd9i
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+npm add @aws-amplify/ui-react
